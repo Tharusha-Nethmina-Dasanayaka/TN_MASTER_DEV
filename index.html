@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <title>TN MASTER DEV</title>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Tn Master Dev</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#home">Tn Master Dev</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#about_me">About</a></li>
+                    <li><a href="#skill">My Skills</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Home section -->
+
+        <div class="container" id="home">
+        <h3>Hello, I'm</h3>
+        <p class="first-text">Tharusha Nethmina</p>
+        <div class="animation-text">
+        <p>And I'm a <span id="typed"></span></p>
+        </div>
+        <div class="wrap">
+            <button class="button_main">HIRE ME</button>
+          </div>
+        </div>
+
+        <!-- About me section-->
+
+        <section class="about_me" id="about_me">
+            <p class="about_me_text">About Me</p>
+            <img src="Asset/about_me.jpg" alt="about me image">
+            <p class="about_text">Hello, I am Tarusha, a 18 year old from Sri Lanka with a passion for technology and innovation.  Since childhood, I have been fascinated by the world of software and its potential to shape our lives.  A year ago, I started my journey into this exciting industry with the desire to contribute something meaningful to the world.
+
+                My learning journey includes various educational platforms, where I actively expand my knowledge and refine my skills, covering areas such as programming languages, web development and software design.<a href="#" id="readMoreLink">Read more</a></p><p id="fullText">I am determined to pursue a software engineering degree, strengthening my foundation and opening doors for future opportunities.
+              
+                As a modern thinker, I embrace modern approaches and believe in the power of innovation.  I am constantly looking for new ways to solve problems and develop creative solutions, incorporating the latest technologies and trends into my work.  My portfolio showcases projects that reflect this approach, demonstrating my ability to think outside the box and deliver impactful results.
+              
+                Beyond technical skills, I value effective communication and collaboration.  I believe teamwork and open communication are critical to successful software development.  I am excited to collaborate with like-minded people and contribute to projects that make a difference.
+              
+                With a commitment and passion for continuous learning, I see myself as a valuable asset to the software industry.  I am excited to contribute my skills and ideas to building the future of technology, creating innovative solutions that improve lives and shape the world around us.</p>
+                
+                <div class="hire_button">
+                   <a href="Asset/sertificate/Front-End_Web_Development_E-Certificate.pdf" download="cv"><button type="hire">Download CV</button></a>
+                </div>
+        </section>
+
+   <!-- My skill section -->
+
+        <div class="tabs-container" id="skill">
+            <h2 class="main_text_skill">My Skills</h2>
+            <div class="tabs">
+                <div class="tab active" onclick="openTab(event, 'tab1')">programing</div>
+                <div class="tab" onclick="openTab(event, 'tab2')">Trading</div>
+                <div class="tab" onclick="openTab(event, 'tab3')">Qualifications</div>
+            </div>
+
+        <!-- programming skill -->
+            <div id="tab1" class="tab-content active">
+              <div class="skills" id="skills">
+                <div class="max-width">
+                    <h2 class="title">My Programing skills</h2>
+                    <div class="skills-content">
+                        <div class="skil_text">
+                            <p>I am constantly developing knowledge to be successful in this industry.  There I develop my knowledge through various educational platforms.  I love working with a group.  Dealing with new technology every day, renewing my knowledge and doing new things.  It is my hobby and I join with different people and support their projects.  There, git is an indispensable tool.  I will display my general knowledge below</p>
+                        </div>
+                        <div class="column right">
+                            <div class="bars">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="line js"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>BOOSTRAP</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="line boostrap"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>ANGULER</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="line anguler"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>PYTHONE</span>
+                                    <span>45%</span>
+                                </div>
+                                <div class="line pythone"></div>
+                            </div>
+                            <div class="bars">
+                                <div class="info">
+                                    <span>GIT HUB</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="line git_skill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+            
+        <!-- Trading Skill -->
+            <div id="tab2" class="tab-content">
+                <div class="skills" id="skills">
+                    <div class="max-width">
+                        <h2 class="title">My Trading Skills</h2>
+                        <div class="skills_trading">
+                            <div class="skil_text">
+                                <p>Welcome to my crypto trading skill tab, where adaptability reigns supreme. In the ever-fluctuating landscape of cryptocurrency, I pride myself on possessing the indispensable skill of adaptability.<a href="#" id="readMoreLink_trade">Read more</a></p><p id="fullText_trade"> With a keen eye for market dynamics and a knack for swift decision-making, I navigate the volatile terrain of digital assets with confidence. My ability to analyze new information in real-time, adjust trading strategies on the fly, and maintain flexibility amidst uncertainty sets me apart in this fast-paced arena. By seamlessly adapting to changing market conditions, I capitalize on emerging trends and effectively mitigate risks, ensuring optimal outcomes for my clients. Join me on this journey of agility and resilience, where every trade is an opportunity to showcase the power of adaptability in achieving crypto trading success.</p>
+                            </div>
+                            <p class="tecnical_a">Analysis Skill</p>
+                            <div class="column right">
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Retail Analysis</span>
+                                        <span>55%</span>
+                                    </div>
+                                    <div class="line retail"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Smart Money Concept</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line smc"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Ellitot Wave Theory</span>
+                                        <span>60%</span>
+                                    </div>
+                                    <div class="line elliot"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Fundamental Analysis</span>
+                                        <span>45%</span>
+                                    </div>
+                                    <div class="line fund"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my_i_P">
+                            <p class="in_text">My Longterm cryptocurrency Investing projects</p>
+                            <div class="project">
+                            <div class="low_risk">
+                                <p class="low_rp">Low Risk Projects</p>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/bitcoin.png" alt="">
+                                    <p>BITCOIN</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/ethereum.png" alt="">
+                                    <p>ETHEREUM</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/bnb.png" alt="">
+                                    <p>BNB</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/solana.png" alt="">
+                                    <p>SOLANA</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/cardano.png" alt="">
+                                    <p>CARDANO</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/ripple.png" alt="">
+                                    <p>XRP</p>
+                                </div>
+                            </div>
+                            <div class="high_risk">
+                                <p class="high_rp">High Risk Project</p>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/polkadot.png" alt="">
+                                    <p>DOT</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/link.png" alt="">
+                                    <p>LINK</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/litecoin.png" alt="">
+                                    <p>LTC</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/gala.png" alt="">
+                                    <p>GALA</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/mina.jpg" alt="">
+                                    <p>MINA</p>
+                                </div>
+                                <div class="icon">
+                                    <img src="Asset/crypto_coin/avalanche.png" alt="">
+                                    <p>AVAX</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            
+        <!-- colification -->
+            <div id="tab3" class="tab-content">
+                <div class="colification">
+                    <h2>My Colification</h2>
+                    <p class="e_colification">I am gathering knowledge in various ways through various educational institutions in this field.  It's because of my need to become an expert in this field.I am interested in learning from it and have completed various courses related to w3 school and pythone through udemy.  Below are some of them</p>
+                    <p class="m_uni">Moratuwa university Dp education  Full Stack Developer Course</p>
+                    <p class="coss_explain">Collaboration with the University of Moratuwa, a renowned public institution, and Dp Education, a private institution dedicated to providing free education, represents an important step in addressing the shortage of skilled professionals in the specialized field in the country.  This course is for the children of our country from University of Moratuwa and D.P Education  A very valuable course provided by the educational institution for free.</p>
+                    <div class="pdf_section">
+                    <div class="first_pdf-page">
+                    <p class="first_e">1. Web desing E sertificate</p>
+                    <img src="Asset/sertificate/Web_Design_for_Beginners_E-Certificate.jpg" alt="">
+                    <p class="tab_b_text">To verify this, open the link below or the pdf and go through the link there and enter the verify code below or the code in the pdf.<br>E-Certificate Verification Url: <a class="uni_link" href="https://open.uom.lk/verify">https://open.uom.lk/verify</a><br>Verification Code: <span style="color: red;">GhrhNp842N</span></p>
+                    <a class="pd_link" href="Asset/sertificate/Web_Design_for_Beginners_E-Certificate.pdf" target="_blank"><img src="Asset/icon_svg/tab/icons8-pdf-48.svg" alt="">Click on the Pdf</a>
+                </div>
+                <div class="first_pdf-page">
+                    <p class="first_e">2. frontend development E sertificate</p>
+                    <img src="Asset/sertificate/Front-End_Web_Development_E-Certificate.jpg" alt="">
+                    <p class="tab_b_text">To verify this, open the link below or the pdf and go through the link there and enter the verify code below or the code in the pdf.<br>E-Certificate Verification Url:  <a class="uni_link" href="https://open.uom.lk/verify">https://open.uom.lk/verify</a><br>Verification Code:<span style="color: red;">si87S6aNrf</span></p>
+                    <a class="pd_link" href="Asset/sertificate/Front-End_Web_Development_E-Certificate.pdf" target="_blank"><img src="Asset/icon_svg/tab/icons8-pdf-48.svg" alt=""> Click on the Pdf</a>
+                </div>
+                <div class="first_pdf-page">
+                    <p class="first_e">3.pythone for beginer E sertificate</p>
+                    <img src="Asset/sertificate/Python_for_Beginners_E-Certificate.jpg" alt="">
+                    <p class="tab_b_text">To verify this, open the link below or the pdf and go through the link there and enter the verify code below or the code in the pdf.<br>E-Certificate Verification Url: <a class="uni_link" href="https://open.uom.lk/verify">https://open.uom.lk/verify</a><br>Verification Code:<span style="color: red;">m6qHahY2a2</span></p>
+                    <a class="pd_link" href="Asset/sertificate/Python_for_Beginners_E-Certificate.pdf" target="_blank"><img src="Asset/icon_svg/tab/icons8-pdf-48.svg" alt="">Click on the Pdf</a>
+                </div>
+                <div class="first_pdf-page">
+                    <p class="first_e">4. pythone programing E sertificate</p>
+                    <img src="Asset/sertificate/Python_Programming_E-Certificate.jpg" alt="">
+                    <p class="tab_b_text">To verify this, open the link below or the pdf and go through the link there and enter the verify code below or the code in the pdf.<br>E-Certificate Verification Url:  <a class="uni_link" href="https://open.uom.lk/verify">https://open.uom.lk/verify</a><br>Verification Code:<span style="color: red;">PO0ZNwgbUL</span></p>
+                    <a class="pd_link" href="Asset/sertificate/Python_Programming_E-Certificate.pdf" target="_blank"><img src="Asset/icon_svg/tab/icons8-pdf-48.svg" alt="">Click on the Pdf</a>
+                </div>
+                <div class="first_pdf-page">
+                    <p class="first_e">5. server side web programing E sertificate</p>
+                    <img src="Asset/sertificate/Server-side_Web_Programming_E-Certificate.jpg" alt="">
+                    <p class="tab_b_text">To verify this, open the link below or the pdf and go through the link there and enter the verify code below or the code in the pdf.<br>E-Certificate Verification Url:  <a class="uni_link" href="https://open.uom.lk/verify">https://open.uom.lk/verify</a><br>Verification Code:<span style="color: red;">wu8BU21tZf</span></p>
+                    <a class="pd_link" href="Asset/sertificate/Server-side_Web_Programming_E-Certificate.pdf" target="_blank"><img src="Asset/icon_svg/tab/icons8-pdf-48.svg" alt="">Click on the Pdf</a>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Service Section -->
+            <section class="service" id="service">
+                <p class="service_text">service</p>
+            <div class="container_service">
+                <div class="card" style="--clr: #0096FF">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="iconbox">
+                                <ion-icon name="brush-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Ui/Ux Desing</h3>
+                            <p>
+                                I specialize in crafting intuitive, user-centered UI/UX designs that drive engagement and results. From research and wireframing to stunning visual interfaces and seamless user flows, I create digital experiences that connect with your audience on every level.  Let's collaborate and transform your vision into a reality!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card" style="--clr: #7DF9FF">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="iconbox">
+                                <ion-icon name="code-slash-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3> Front-end Web Development</h3>
+                            <p>
+                                I specialize in front-end web development, transforming designs into pixel-perfect, interactive experiences.  Using HTML, CSS, JavaScript, and modern frameworks, I build responsive and accessible websites that perform flawlessly across devices.  Let's collaborate to bring your vision to life and create a website that users will love!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card" style="--clr: #90EE90">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="iconbox">
+                                <img src="Asset/icon_svg/icon-game-development.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Game Development</h3>
+                            <p>
+                                I transform game ideas into reality! As an experienced game developer, I specialize in building engaging and immersive gaming experiences across various platforms. From concept and design to programming and implementation, I utilize powerful tools and engines to create games that captivate players. Let's collaborate and bring your game vision to life!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                           <div class="card" style="--clr: #FF9999">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="iconbox">
+                                <img src="Asset/icon_svg/icon-graphic-design.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Graphic Desing</h3>
+                            <p>
+                                I'm a graphic designer passionate about crafting impactful visual identities and engaging designs. From logos and marketing materials to web & UI design, I help brands tell their stories and connect with audiences. Let's collaborate and create visuals that inspire!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- Portfolio section -->
+        <section class="gallery_section" id="portfolio">
+            <p class="gallery_text">Portfolio</p>
+            <div class="gallery">
+                <div class="first_video" style="--clr: #ff0000">
+                    <p class="main_text">Front-end Web Development</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/second_video.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">This is a responsive frontend web development project done by me using html,css,js</p>
+                </div>
+                <div class="second_video" style="--clr: #0096FF">
+                    <p class="main_text">Front-end Web Development</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/video.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">This is a responsive frontend web development project done by me using html,css,js</p>
+                </div>
+                <div class="Thierd_video" style="--clr: #ad1beb">
+                    <p class="main_text">Pythone whatsapp spam Bot</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/video_2024-05-04_22-37-41.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">This is a simple spam bot created using python and can spam after attaching a virus file.</p>
+                </div>
+                <div class="four_video" style="--clr: #2cff00">
+                    <p class="main_text">Pythone Project</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/video_2024-05-04_23-35-43.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">This python project is being created.</p>
+                </div>
+                <div class="five_video" style="--clr: #c7ff00">
+                    <p class="main_text">Web Development</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/video_2024-05-04_23-35-43.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">I look forward to showcasing this in the future.  This is done using Angular. Here the Ui ux is designed by me according to the client's ideas.</p>
+                </div>
+                <div class="six_video" style="--clr: #00f3ff">
+                    <p class="main_text">Pythone whatsapp chat Bot</p>
+                    <video id="video" autoplay muted loop>
+                    <source src="Asset/portfolio/video_2024-05-04_23-35-43.mp4" type="video/mp4">
+                    </video>
+                    <p class="s_text">Looking forward to showcasing this in the future.  This is a whatsapp bot made by pythone.</p>
+                </div>
+            </div>
+            <div class="git-hub">
+            <a id="button_git" href="https://github.com/login/oauth/authorize?client_id=YOUR_CLIENT_ID" class="github-button">
+                <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <title>github</title> <rect fill="none" height="24" width="24"></rect> <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z"></path> </g></svg>
+                Continue with Github 
+            </a>
+        </div>
+        </section>
+        
+        Contact Section
+      <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                    <span class="contact_logo"><a href="#home">Tn Master Dev</a></span>
+                    <div class="icons">
+                        <div class="row">
+                            <img src="Asset/icon_svg/contact/icons8-person-64(1).svg" alt="">
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Tharusha Nethmina Dasanayaka</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="Asset/icon_svg/contact/icons8-location-50(1).svg" alt="">
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Dompe,Indolamulla,Sri Lanka</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="Asset/icon_svg/contact/icons8-email-50.svg" alt="">
+                            <div class="info">
+                                <div class="head">Email</div>
+                                 <div class="sub-title">tharushanethmina0713@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="Asset/icon_svg/contact/icons8-phone-50.svg" alt="">
+                            <div class="info">
+                                <div class="head">Mobile Number</div>
+                                <div class="sub-title">+94755347412</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tow-colored">
+                        <ul>
+                           <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                          <li><img src="Asset/icon_svg/icon-png/tiktok.png" alt=""></li>
+                          <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+                          <li><img src="Asset/icon_svg/icon-png/x.png" alt=""></li>
+                          <li><i class="fa fa-telegram" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-github" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                        </ul>
+                      </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form action="#">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="20" rows="9" placeholder="Message.." required></textarea>
+                            </div>
+                            <div class="button-area">
+                                <button type="submit">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- footer section start -->
+        <footer>
+            <span>Created By <a href="#home">TN_MASTER_DEV</a> <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+        </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</body>
+</html>
