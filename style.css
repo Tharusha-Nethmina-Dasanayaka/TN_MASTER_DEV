@@ -717,6 +717,7 @@ width: 40%;
     }
     
 .container_service .card {
+    margin-bottom: 2rem;
         position: relative;
         width: 300px;
         height: 550px;
@@ -725,6 +726,7 @@ width: 40%;
         border-top-left-radius: 70px;
         overflow: hidden;
     }
+
     
 .container_service .card .box {
         position: absolute;
@@ -833,8 +835,9 @@ width: 40%;
     .gallery video{
         width: 250px;
         height: 250px;
-        margin-left: 2rem;
+        margin-left: 20px;
     }
+ 
     
     .gallery video p{
         color: black;
@@ -1169,6 +1172,7 @@ footer span a:hover{
     .nav-links li a:hover{
         color:#00FF00;
     }
+   
 }
 
 @media only screen and (max-width: 1080px) {
@@ -1210,22 +1214,147 @@ footer span a:hover{
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 767px) {
-    .gallery .first_video{
+/* Small devices (portrait tablets and large phones, 767px and up) */
+@media only screen and (min-width: 600px) {
+    .container .animation-text  span{
+        color: #00FF00;
+        font-size: 25px;
+    }
+    .container .animation-text p{
+        font-size: 33px;
+        color: white;
+        font-weight: bold;
+        
+    }
+    .container .first-text{
+        font-size: 40px;
+        color: snow;
+        font-weight: 400;
+    }
+    .container_service .card {
+        width: 400px;   
+    }
+    .gallery video{
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+    .gallery .first_video {
+        width: 250px;
+        height: 500px;
         margin-left: 1rem;
-        gap: 20px;
+        margin-right: 1rem;
+    }
+    .gallery .second_video{
+        width: 250px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .gallery .Thierd_video{
+        width: 250px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .gallery .four_video{
+        width: 250px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gallery .five_video{
+        width: 250px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gallery .six_video{
+        width: 250px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .contact .contact-content .info .sub-title{
+        color: white;
+        opacity: 80%;
+        font-size: 18px;
+    }
+    .contact .contact-content .info .head{
+        font-size: 20px;
+        font-weight: 500;
+        color: #00FF00;
     }
 
 
+}
+@media only screen and (min-width: 767px) {
+    .container_service .card {
+        width: 300px;   
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .service-div-one{
+        display: flex;
+    }
+    .service-div-two{
+        display: flex;
+    }
+    .gallery video{
+        width: 300px;
+        height: 250px;
+        margin-left: 0;
+    }
+    .gallery .first_video {
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gallery .second_video{
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .gallery .Thierd_video{
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .gallery .four_video{
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gallery .five_video{
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gallery .six_video{
+        width: 300px;
+        height: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .about_me{
+        /* display: flex; */
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
