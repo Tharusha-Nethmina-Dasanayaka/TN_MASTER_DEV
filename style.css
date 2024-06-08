@@ -344,29 +344,33 @@ body.dark .search-field i{
   
 
 /* About me */
-.about_me {
-    display: grid;
-    justify-items: center;
+
+.container_about {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.about_me_text{
+  
+.about-title {
     text-align: center;
-    color: #F2F2F2;
+    font-size: 3rem;
     margin-top: 2rem;
-    font-size: 40px;
-    font-weight: bold;
-}
-.about_me img{
-    width: 50%;
-    margin-top: 2rem;
-}
-.about_text{
-    margin-top: 1rem;
+    margin-bottom: 30px;
     color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
+}
+  
+.about-image {
+    width: 100%; 
+    height: auto;
+}
+  
+.about-text_main {
+    color: white;
     font-size: 14px;
 }
-.about_me .hire_button button{
+
+.about_me .hire_button button {
+    justify-content: center;
     color: black;
     display: block;
     width: 150px!important;
@@ -381,25 +385,28 @@ body.dark .search-field i{
     border: 3px solid #00FF00;
     transition: all 0.3s ease;
     margin-top: 1rem;
-  }
-  .about_me .hire_button button:hover{
-      color: #00FF00;
-      background: none;
-    }
-#fullText{
-    display: none;
-    color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 14px; 
+    margin-left: 20%;
 }
-#readMoreLink{
+
+.about_me .hire_button button:hover {
+    color: #00FF00;
+    background: none;
+}
+
+#fullText {
+    color: white;
+    font-size: 14px;
+}
+
+#readMoreLink {
     color: red;
     text-decoration: none;
 }
-.about_me .hire_button a{
+
+.about_me .hire_button a {
     text-decoration: none;
 }
+
 
 /* My Skill */
 .tabs-container {
@@ -638,14 +645,10 @@ width: 40%;
     width: 45%;
     }
 
-#fullText_trade{
-    display: none;
-    color: white;
-}
-#readMoreLink_trade{
-    text-decoration: none;
-    color: red;
-}
+    .skil_text{
+        width: 100%;
+        padding: 0%;
+    }
 
 /* trading project */
 .my_i_P{
@@ -1211,6 +1214,9 @@ footer span a:hover{
     .my_i_P .project .high_risk{
         margin-right: 3rem;
     }
+    .about_me .hire_button button {
+        margin-left: 30%;
+      }
 
 }
 
@@ -1287,10 +1293,20 @@ footer span a:hover{
         font-weight: 500;
         color: #00FF00;
     }
+    .about_me .hire_button button {
+        margin-left: 30%;
+      }
 
 
 }
 @media only screen and (min-width: 767px) {
+      .about-image {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-right: 30%;
+      }
+
     .container_service .card {
         width: 300px;   
         margin-left: 20px;
@@ -1345,16 +1361,45 @@ footer span a:hover{
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .about_me .hire_button button {
+        margin-left: 40%;
+      }
 
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .about_me{
-        /* display: flex; */
-    }
+    .about-content {
+        display: flex;
+        gap: 40px;
+      }
+    
+      .about-image {
+        width: 50%;
+        margin: 0%;
+      }
+    
+      .about-text_main {
+        width: 50%;
+      }
+      .about_me .hire_button button {
+        margin-left: 30%;
+      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    
+    #fullText {
+        color: white;
+        font-size: 15px;
+    }
+    .about-text_main {
+        color: white;
+        font-size: 15px;
+
+    }
+    
+    
+}

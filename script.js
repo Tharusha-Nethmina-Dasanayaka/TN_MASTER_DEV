@@ -64,21 +64,28 @@ function openTab(evt, tabName) {
 document.getElementById("tab1").style.display = "block";
 document.getElementsByClassName("tab")[0].classList.add("active");
 
-document.getElementById('readMoreLink','readMoreLink_trade').addEventListener('click', function(event) {
+document.getElementById('readMoreLink').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent default link behavior
-
     var fullText = document.getElementById('fullText','fullText_trade');
     fullText.style.display = 'block'; // Display the full text
-    var readMoreLink = document.getElementById('readMoreLink','readMoreLink_trade');
-    readMoreLink.parentNode.removeChild(readMoreLink); // Remove the "Read more" link
-  });
+    var readMoreLink = document.getElementById('readMoreLink');
+    readMoreLink.style.display = 'none'; // Hide the "Read more" link
+    var dots = document.getElementById('dots');
+    dots.style.display = 'none'; // Hide the dots
+});
 
-  document.getElementById('readMoreLink_trade').addEventListener('click', function(event) {
+document.getElementById('readMoreLink').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent default link behavior
-
     var fullText = document.getElementById('fullText_trade');
     fullText.style.display = 'block'; // Display the full text
-    var readMoreLink = document.getElementById('readMoreLink_trade');
-    readMoreLink.parentNode.removeChild(readMoreLink); // Remove the "Read more" link
-  });
+    var readMoreLink = document.getElementById('readMoreLink');
+    readMoreLink.style.display = 'none'; // Hide the "Read more" link
+    var dots = document.getElementById('dots');
+    dots.style.display = 'none'; // Hide the dots
+});
+
+
+
+
+
 
